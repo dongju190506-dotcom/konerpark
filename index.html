@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coming Soon</title>
-  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konerpark - Coming Soon</title>
+  <meta name="description" content="Konerpark - 반려동물 아웃도어 브랜드. 곧 찾아뵙겠습니다.">
   <style>
-    html, body { height: 100%; margin: 0; background: #000; }
-    .stage { text-align: center; padding: 2rem; }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+    }
+    /* SEO용 텍스트를 화면에서 숨김 */
+    .hidden-text {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
   </style>
 </head>
 <body>
-  <div class="stage">
-    <img 
-      src="/assets/images/konerpark-coming-soon.png" 
-      alt="Konerpark Coming Soon" 
-      style="max-width:100%;height:auto;display:block;margin:0 auto;">
+  <!-- 방문자가 보는 Coming Soon 이미지 -->
+  <img src="assets/images/konerpark_comingsoon.png" alt="Konerpark Coming Soon" />
+
+  <!-- 검색엔진용 숨겨진 텍스트 -->
+  <div class="hidden-text">
+    Konerpark는 반려동물과 함께하는 아웃도어 라이프스타일 브랜드입니다.
+    캠핑, 등산, 여행 등 야외 활동에서 반려동물과 보호자가 함께 더 편리하고 즐겁게 보낼 수 있는 제품을 개발합니다.
+    친환경 소재를 활용한 지속가능한 제품을 제공하며, 반려동물과 자연을 사랑하는 사람들을 위한 새로운 경험을 제안합니다.
+    곧 공식 홈페이지에서 자세한 소식을 전하겠습니다.
   </div>
 </body>
 </html>
